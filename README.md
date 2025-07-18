@@ -1,16 +1,16 @@
-# MyAI-Bosco 🤖
+# MyAI-Bosco
 
 An AI-powered intelligent document Q&A system that supports PDF document upload and intelligent conversations based on document content.
 
-## 🚀 Features
+## Features
 
-- 📁 **Document Upload**: Support PDF file upload (max 5MB)
-- 🤖 **Intelligent Q&A**: AI-powered question answering based on uploaded PDF documents
-- 🔍 **Document Retrieval**: Advanced vector storage and similarity search technology
-- 💬 **Natural Conversation**: Natural dialogue experience using OpenAI GPT-3.5-turbo model
-- 📱 **Responsive Design**: Support for both desktop and mobile devices
+- **Document Upload**: Support PDF file upload (max 5MB)
+- **Intelligent Q&A**: AI-powered question answering based on uploaded PDF documents
+- **Document Retrieval**: Advanced vector storage and similarity search technology
+- **Natural Conversation**: Natural dialogue experience using OpenAI GPT-3.5-turbo model
+- **Responsive Design**: Support for both desktop and mobile devices
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React** 18.3.1
@@ -25,7 +25,7 @@ An AI-powered intelligent document Q&A system that supports PDF document upload 
 - **PDF-Parse** - PDF document parsing
 - **CORS** - Cross-origin resource sharing
 
-## 📦 Installation Guide
+## Installation Guide
 
 ### Prerequisites
 - Node.js 16.0+
@@ -55,7 +55,7 @@ Create a `.env` file in the project root:
 REACT_APP_OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-## 🚀 Running the Project
+## Running the Project
 
 ### Start Backend Server
 ```bash
@@ -71,7 +71,7 @@ npm start
 ```
 The frontend application will start at `http://localhost:3000`
 
-## 📚 API Documentation
+## API Documentation
 
 ### File Upload
 - **POST** `/upload`
@@ -84,7 +84,7 @@ The frontend application will start at `http://localhost:3000`
 - Requires uploaded document
 - Returns: AI-generated answer based on document content
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MyAI-Bosco/
@@ -102,14 +102,14 @@ MyAI-Bosco/
 └── README.md              # Project documentation
 ```
 
-## 🎯 Usage Guide
+## Usage Guide
 
 1. **Start the Application**: Follow the installation guide to start both frontend and backend services
 2. **Upload Document**: Upload a PDF document through the interface
 3. **Ask Questions**: Input questions about the document content
 4. **Get Answers**: The system will provide intelligent answers based on the document content
 
-## 🔧 Development Guide
+## Development Guide
 
 ### Local Development
 ```bash
@@ -127,7 +127,7 @@ npm run build
 npm test
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the project
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -135,18 +135,18 @@ npm test
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Create a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [OpenAI](https://openai.com/) - For providing powerful AI models
 - [LangChain](https://langchain.com/) - Excellent AI application development framework
 - [React](https://reactjs.org/) - User interface library
 - [Express.js](https://expressjs.com/) - Web application framework
 
-## 📧 Contact
+## Contact
 
 If you have any questions or suggestions, please reach out:
 
